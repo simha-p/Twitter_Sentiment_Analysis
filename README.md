@@ -43,11 +43,13 @@ pip install -r requirements.txt
    - Sign up on Kaggle and download your API key (kaggle.json)
    - Place the kaggle.json file in the ~/.kaggle/ directory
    - Run the following commands:
-     ```
-    mkdir -p ~/.kaggle
-    cp kaggle.json ~/.kaggle/
-    chmod 600 ~/.kaggle/kaggle.json
-    kaggle datasets download -d kazanova/sentiment140
+     mkdir -p ~/.kaggle
+
+     cp kaggle.json ~/.kaggle/
+
+     chmod 600 ~/.kaggle/kaggle.json
+
+     kaggle datasets download -d kazanova/sentiment140
  
 
 ## Usage
